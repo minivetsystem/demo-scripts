@@ -1,0 +1,213 @@
+.errorclass {
+	background-image:url(error.png) !important;
+	border: 1px solid #FF0000 !important;
+	transition: all 0.2s ease-in-out 0s;
+	background-repeat:no-repeat !important;
+	background-position:top right !important;
+}
+.bootstrap-growl.alert {
+    border: medium none;
+    box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.04) inset;
+    padding-left: 60px;
+    position: relative; 
+}
+.bootstrap-growl.alert.alert-block:before {
+    padding: 24px 14px; 
+}
+.bootstrap-growl.alert-success:before {
+    background-color: inherit;
+    border-radius: 2px 0 0 2px;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.04) inset, 1px 0 0 0 rgba(0, 0, 0, 0.05);
+    content: '\e80e';
+    display: inline;
+    font-family: 'fontello';
+    height: 100%;
+    left: 0;
+    padding: 10px 14px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bootstrap-growl.alert-error:before {
+    background-color: inherit;
+    border-radius: 2px 0 0 2px;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.04) inset, 1px 0 0 0 rgba(0, 0, 0, 0.05);
+    content: '\e80f';
+    display: inline;
+    font-family: 'fontello';
+    height: 100%;
+    left: 0;
+    padding: 8px 14px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bootstrap-growl.alert-warning:before {
+    background-color: inherit;
+    border-radius: 2px 0 0 2px;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.04) inset, 1px 0 0 0 rgba(0, 0, 0, 0.05);
+    content: "";
+    display: inline;
+    font-family: 'fontello';
+    height: 100%;
+    left: 0;
+    padding: 8px 14px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bootstrap-growl.alert-info:before {
+    background-color: inherit;
+    border-radius: 2px 0 0 2px;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.04) inset, 1px 0 0 0 rgba(0, 0, 0, 0.05);
+    content: '\e816';
+    display: inline;
+    font-family: 'fontello';
+    height: 100%;
+    left: 0;
+    padding: 8px 14px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.alert {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.alert,.alert h4 {
+    color: #c09853;
+}
+
+.alert h4 {
+    margin: 0;
+}
+
+.alert .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    line-height: 20px;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+}
+
+.alert-success h4 {
+    color: #468847;
+}
+
+.alert-danger,.alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+}
+
+.alert-danger h4,.alert-error h4 {
+    color: #b94a48;
+}
+
+.alert-info {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #3a87ad;
+}
+
+.alert-info h4 {
+    color: #3a87ad;
+}
+
+.alert-block {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.alert-block>p,.alert-block>ul {
+    margin-bottom: 0;
+}
+
+.alert-block p+p {
+    margin-top: 5px;
+}
+.close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.close:hover {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+
+/*=======================================================================================*/
+/*========================== ERROR MESSAGE AND TOOLTIP STYLES ===========================*/
+/*=======================================================================================*/
+
+.yellow {
+  background: #d6cc48 !important;
+  color: white !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15) !important; }
+
+.green {
+  background: #55bc75 !important;
+  color: white !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15) !important; }
+
+.red {
+  background: #dc4c42 !important;
+  color: white !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15) !important; }
+.blue {
+  background: #3bc2e3 !important;
+  color: white !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15) !important; }
+
+.facebookblue {
+  background: #3b559f !important;
+  color: white !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15) !important; }
+  
+.loading-icon {
+	display: none;
+    margin-top: -5px;
+    position: absolute;
+    vertical-align: middle;
+}
