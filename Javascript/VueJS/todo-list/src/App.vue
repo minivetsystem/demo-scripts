@@ -1,23 +1,17 @@
 <template>
     <div id="app">
-        <!--<img src="./assets/logo.png">
-        <HelloWorld msg="Welcome to Your Vue.js App"/>-->
         <sticky-header-component></sticky-header-component>
-        <home-component></home-component>
+        <router-view></router-view>
     </div>
 </template>
 
 <script>
-    //import HelloWorld from './components/HelloWorld.vue';
     import StickyHeader from './components/partials/header/StickyHeader.vue';
-    import Home from './components/home/Home.vue';
 
     export default {
         name: 'app',
         components: {
-            //"hello-world": HelloWorld,
-            "sticky-header-component": StickyHeader,
-            "home-component": Home
+            "sticky-header-component": StickyHeader
         }
     }
 </script>

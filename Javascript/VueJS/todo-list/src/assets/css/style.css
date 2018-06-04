@@ -16,3 +16,36 @@ body {
 .theme-showcase .navbar .container {
     width: auto;
 }
+
+.todo-title {
+    display: block;
+}
+
+.todo-details {
+    border: 1px solid #ccc;
+    width: 50%;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    background: #fff;
+    padding: 15px 20px;
+    height: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    z-index: 10000;
+}
+
+.todo-details .todo-details-content {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.todo-details .todo-details-content .todo-title{
+    width: 100%;
+}
+.todo-details .todo-details-content .todo-description{
+    height: 150px;
+    width: 100%;
+    resize: none;
+}
