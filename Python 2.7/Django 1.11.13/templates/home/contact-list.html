@@ -1,0 +1,19 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+	<div class="contact-list">
+		 <p>{{ name }}</p>
+		 <p>{{ newData }}</p>
+		<ul>
+		    {% for elem in newData %}
+		    	<li>
+			    	{% for data in elem %}
+			        	{{ data }} &nbsp;&nbsp;&nbsp;
+			        {% endfor %}
+		    	</li>
+		    {% endfor %}
+		</ul>
+
+
+	</div>
+{% endblock %}

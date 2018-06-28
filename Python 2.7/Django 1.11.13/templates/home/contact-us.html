@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+	<form action="contact-us" method="GET">
+	    {% csrf_token %}
+	    {{ form }}
+	    <input type="submit" value="Submit" />
+	</form>
+	{{request.GET.NAME}}
+	<br>
+	{{request.GET.ADDRESS}}
+	{{conn}}
+{% endblock %}
